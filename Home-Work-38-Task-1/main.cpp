@@ -9,6 +9,5 @@ int main(int argc, char *argv[])
     button.setFixedSize(110, 100);
     button.move(800, 400);
     button.show();
-
     return a.exec();
 }
