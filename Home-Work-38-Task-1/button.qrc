@@ -1,4 +1,7 @@
 <RCC>
-    <qresource prefix="Button">
+    <qresource prefix="/Button">
+        <file>click.mp3</file>
+        <file>down_icon.png</file>
+        <file>up_icon.png</file>
     </qresource>
 </RCC>
