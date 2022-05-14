@@ -11,7 +11,7 @@ Button::Button(QWidget *parent)
 
     connect(this, &QPushButton::clicked, this, &Button::setDown);
 
-    player->setMedia(QUrl::fromLocalFile("click.mp3"));
+    player->setMedia(QUrl::fromLocalFile("./click.mp3"));
 
 }
 void Button::paintEvent(QPaintEvent* e) {
